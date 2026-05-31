@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Port Scanner — Glassmorphism Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glass-bg"></div>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-row">
+                <span class="logo-emoji">📡</span>
+                <div class="title-col">
+                    <h1>Mock Port Scanner</h1>
+                    <p class="tagline">Check port diagnostic status indicators in a safe, interactive firewall matrix.</p>
+                </div>
+            </div>
+            <div class="badge">security</div>
+        </header>
+
+        <main class="workspace-card">
+            
+            <div style="display: flex; gap: 12px; align-items: center; margin-bottom: 16px;">
+                <input type="text" id="scan-ip" value="127.0.0.1" style="width: 150px;">
+                <button class="btn" onclick="startScan()">Start Diagnosis</button>
+            </div>
+            <div class="port-grid" id="scan-grid"></div>
+        
+        </main>
+        
+        <footer class="app-footer">
+            <p>Created as a premium portfolio piece by <a href="https://github.com/VARSHAN69" target="_blank">@VARSHAN69</a></p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
