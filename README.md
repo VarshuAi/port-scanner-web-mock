@@ -38,7 +38,7 @@ version: 1.0
 type: Repository
 author: VarshuAi
 description: >
-  Check port diagnostic status indicators in a safe, interactive firewall matrix.
+  name: port-scanner-web-mock version: 1.0 type: Repository author: VarshuAi description: >   Check port diagnostic status indicators in a safe, interactive firewall matrix. primary_tech: CSS
 primary_tech: CSS
 ```
 
